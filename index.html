@@ -103,7 +103,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.tab{width:auto;flex:1}#bJ{right:
  <button class="g" id="ivb">🎒 Envanter</button>
  <label>Hediye kodu</label><div class="crow"><input id="gc" maxlength="30" placeholder="Hediye kodu" autocomplete="off"><button class="g" id="gcb">Kullan</button></div><div class="mu" id="gcm"></div>
  <button class="g" id="bt">🩸 Kan Ağacı</button><button class="g" id="bb">Build (perk seç)</button><button class="g" id="ch">İsim değiştir</button><button class="g" id="ex">📋 Hesap kodu (başka cihaza taşı)</button>
- <p class="mu" id="ver" style="font-size:11px"><b>v1.43</b> (New Crawler) — Son güncelleme: Crawler modeli tamamen yenilendi (animasyonlu yeni model; lobi ve oyun içi), koşarken (Boşluk) sol tık = ileri sıçrama + hasar, sıçramayla vurulan kurban 2 sn boyunca sadece Crawler'ın görebildiği Kan Kokusu izi bırakır (iz 4 sn sonra silinerek kaybolur). Önceki sürüm (v1.42): tüm kurbanlar ölü/kancadaysa 5 sn sonra "Tüm kurbanlar kaybetti" ile maç sonu, dolaplar evlerin dışında duvara dayalı (lobide sayısı ayarlanır, varsayılan 5), botlar çok nadiren dolaba girer, Veli yumruğu dolaba: 10 sn sayaç + kararma + fırlatma + dolaptan uzanan el, şapka katile geri döner (yeni model/animasyon), moonwalk beklemesi x2 ve sonrasında 1.5 sn %30 yavaşlama, mobil kontrol seçimi düzeltmesi. Önceki sürüm (v1.41): ikonlu envanter ekranı, Cem Yılmaz yüzü, kırmızı dolaplar, depo/orman çıkış kapıları, katil bot yol bulma (A*), şapka sesi 1.5x. Daha önceki (v1.4): hesaba bağlı envanter (karakter sahipliği; hesap koduyla taşınır), mağaza (Smooth Criminal 70, Veli 200, Cem Yılmaz 150), hediye kodu, lobide karakter seçimi + hazır sistemi, yeni hayatta kalan Cem Yılmaz (Şaka yeteneği), Crawler pasifi Kan Kokusu, sprint dengesi (-%30, bitince tam dolana kadar kilit), jeneratör beceri ödülü 1 sn, bot zekâsı (palet takibi, 2'li jeneratör, sandık, item, flashbang yardımı, Smooth Criminal'a karşı hareketlilik).</p><p class="mu">PC: WASD • Enter sohbet • Shift sprint • 1/2 item seç • F basılı tut item kullan • R item ver / Veli: R nişan al, tekrar R yumruk at • fare • E etkileşim/atla • F veya sol tık vur • Boşluk yetenek/kontrol • Q bırak • V: Cem Yılmaz şakası.<br>Mobil: joystick, sağ tarafı kaydır, butonlar.</p>
+ <p class="mu" id="ver" style="font-size:11px"><b>v1.44</b> (Pounce) — Son güncelleme: Crawler artık test projesindeki gibi SIÇRIYOR (koşarken sol tık: eğilip hazırlanır, hedefe kilitlenip havada yay çizer, isabette hasar + Kan Kokusu), birinci kişi bakışta Crawler eski ellerini değil kendi vücudunu görür (kafa gizli + yakın kesme, kamera çakışmaz), Cem Yılmaz Şaka alanı %25 büyüdü ve alan kenarında/gecikmede bile kesin çalışır. Önceki sürüm (v1.43 New Crawler): Crawler modeli tamamen yenilendi (animasyonlu yeni model; lobi ve oyun içi), koşarken (Boşluk) sol tık = ileri sıçrama + hasar, sıçramayla vurulan kurban 2 sn boyunca sadece Crawler'ın görebildiği Kan Kokusu izi bırakır (iz 4 sn sonra silinerek kaybolur). Önceki sürüm (v1.42): tüm kurbanlar ölü/kancadaysa 5 sn sonra "Tüm kurbanlar kaybetti" ile maç sonu, dolaplar evlerin dışında duvara dayalı (lobide sayısı ayarlanır, varsayılan 5), botlar çok nadiren dolaba girer, Veli yumruğu dolaba: 10 sn sayaç + kararma + fırlatma + dolaptan uzanan el, şapka katile geri döner (yeni model/animasyon), moonwalk beklemesi x2 ve sonrasında 1.5 sn %30 yavaşlama, mobil kontrol seçimi düzeltmesi. Önceki sürüm (v1.41): ikonlu envanter ekranı, Cem Yılmaz yüzü, kırmızı dolaplar, depo/orman çıkış kapıları, katil bot yol bulma (A*), şapka sesi 1.5x. Daha önceki (v1.4): hesaba bağlı envanter (karakter sahipliği; hesap koduyla taşınır), mağaza (Smooth Criminal 70, Veli 200, Cem Yılmaz 150), hediye kodu, lobide karakter seçimi + hazır sistemi, yeni hayatta kalan Cem Yılmaz (Şaka yeteneği), Crawler pasifi Kan Kokusu, sprint dengesi (-%30, bitince tam dolana kadar kilit), jeneratör beceri ödülü 1 sn, bot zekâsı (palet takibi, 2'li jeneratör, sandık, item, flashbang yardımı, Smooth Criminal'a karşı hareketlilik).</p><p class="mu">PC: WASD • Enter sohbet • Shift sprint • 1/2 item seç • F basılı tut item kullan • R item ver / Veli: R nişan al, tekrar R yumruk at • fare • E etkileşim/atla • F veya sol tık vur • Boşluk yetenek/kontrol • Q bırak • V: Cem Yılmaz şakası.<br>Mobil: joystick, sağ tarafı kaydır, butonlar.</p>
 </div></div>
 
 <div class="scr hide" id="s-lobby"><div class="box">
@@ -159,6 +159,7 @@ button:disabled{opacity:.45;cursor:not-allowed}.tab{width:auto;flex:1}#bJ{right:
  18. v1.4 görseller: Cem şaka alanı + ses, Crawler Kan Kokusu izi
  19. v1.41-1.42: dolaplar (evlerin dışında; Veli yumruğu etkisi), şapka modeli, çıkış kapıları, pathfinding, envanter ekranı, şapka sesi
  20. v1.43: Crawler GLB modeli (crwLoad/crwAttach/crwUpd; CRW_GLB ayrı script)
+ 21. v1.44: Crawler sıçrama (pounce) + birinci kişi gövde görünümü (pounceStart/Tick/Move/Hit, crwFP/crwCam)
 */
 /* ================= yardımcılar ================= */
 const $=id=>document.getElementById(id);let rng=Math.random;
@@ -166,7 +167,8 @@ const R=(a,b)=>a+rng()*(b-a),RI=(a,b)=>Math.floor(R(a,b+1)),cl=(v,a,b)=>Math.max
 function seeded(s){return()=>{s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
 const S=72,ALIVE=['ok','down','carried','hung'],ST=['ok','down','carried','hung','dead','esc'];
 /* v1.4: Cem Yılmaz (hız çarpanı, stamina dolum çarpanı, hasar sonrası koşu çarpanı/süre), Şaka (bekleme sn, yarıçap, sersemletme sn), Crawler Kan Kokusu (izin aktif süresi, iz ömrü sn) */
-const CEM_SPD=.9,CEM_REG=.7,CEM_BOOST=2.75,CEM_BT=3,JK_CD=45,JK_R=5.1,JK_STUN=5,KK_T=2,KK_L=4,POBS=.45;
+const CEM_SPD=.9,CEM_REG=.7,CEM_BOOST=2.75,CEM_BT=3,JK_CD=45,JK_R=6.375,JK_TOL=1.5,JK_STUN=5,KK_T=2,KK_L=4,POBS=.45;
+const PN_W=.42,PN_V0=9.5,PN_G=28,PN_SP=10,PN_REC=.55,PN_CD=1.4,PN_HIT=1.9,PN_AIM=10,PN_AIR=PN_V0/(PN_G/2);   /* v1.44 Crawler sıçrama: hazırlık sn, dikey hız, yerçekimi, yatay hız, iniş sn, bekleme, isabet yarıçapı, hedefe kilit menzili */
 const SPR=1.75,SPR_DRAIN=35,SPR_REG=5.6,ATK_SLOW=.25,ATK_SLOW_T=1;   /* v1.2: sprint hız çarpanı, stamina/sn harcama, stamina/sn dolma; katil düz saldırı yavaşlığı (çarpan, süre sn) */
 /* v1.3 Item Rumble: BRK=palet kırma/jeneratör sabote süresi, GSAB=sabotajda geri alınan ilerleme, GSBC=aynı jeneratöre bekleme sn, CHT=sandık açma sn.
    YENİ ITEM EKLEMEK: IT'ye satır (ad, hazırlık sn, ikon) + LOOT'a şans ağırlığı + unuse()/useItem()'e davranış. LOOT'ta 0 = boş sandık. */
@@ -557,8 +559,8 @@ function palHand(a,q){if(a.hd)return;a.hd=1;a.hk=0;a.fa=1;
 function palVault(p,a){if(!p.killer){const n=(a.vcn[p.id]||0)+1;a.vcn[p.id]=n;if(n>=3&&!a.hd)palHand(a)}const sd=po(a,p)>=0?1:-1,e=-sd*2.2,l=cl(pl(a,p),-1.2,1.2);startVault(p,a.ax==='x'?{x:a.x+l,z:a.z+e}:{x:a.x+e,z:a.z+l},.55,2)}
 function palDrop(p,a){palFall(a,1);p.frz=.2;const k=G.killer,u=po(a,k),l=pl(a,k);
  if(k.st==='ok'&&Math.abs(u)<1.6&&Math.abs(l)<2.2){k.stun=2;k.brk=0;k.vt=0;const sd=u>=0?1:-1;if(a.ax==='x')k.z=a.z+sd*2.2;else k.x=a.x+sd*2.2;res(k);toast('Katil paletin altında kaldı!');gx(p,40)}}
-const leaping=p=>p.killer&&p.kind==='crawler'&&p.abl>0&&p.abl<=.36&&p.swing>0;   /* v1.43: Crawler sıçrama anı (abl/swing zaten ağda senkron) */
-function speedOf(p){let sp=p.killer?(p.kind==='veli'?5.9:p.kind==='smooth'?6:6.2):5.4*(p.sv==='cem'?CEM_SPD:1);if(p.killer){if(p.carry)sp*=.75;if(p.abl>0)sp*=leaping(p)?3.2:2.2;if(p.mw)sp*=has(p,'sm1')?1.7:1.45}else{if(p.item)sp*=1-p.item.v/1000*(has(p,'s5')?.5:1);if(p.boost>0)sp*=p.sv==='cem'?CEM_BOOST:BOOST;else{if(p.hp<2)sp*=HURT;if(p.spr)sp*=SPR}}if(p.smt>0)sp*=p.smv;if(p.aslow>0)sp*=ATK_SLOW;if(p.mws>0)sp*=MW_SLOW;if(p.fl>0)sp*=1.2;return sp}
+const leaping=p=>p.killer&&p.kind==='crawler'&&p.pz>0;   /* v1.43: Crawler sıçrama anı (abl/swing zaten ağda senkron) */
+function speedOf(p){let sp=p.killer?(p.kind==='veli'?5.9:p.kind==='smooth'?6:6.2):5.4*(p.sv==='cem'?CEM_SPD:1);if(p.killer){if(p.carry)sp*=.75;if(p.abl>0)sp*=2.2;if(p.mw)sp*=has(p,'sm1')?1.7:1.45}else{if(p.item)sp*=1-p.item.v/1000*(has(p,'s5')?.5:1);if(p.boost>0)sp*=p.sv==='cem'?CEM_BOOST:BOOST;else{if(p.hp<2)sp*=HURT;if(p.spr)sp*=SPR}}if(p.smt>0)sp*=p.smv;if(p.aslow>0)sp*=ATK_SLOW;if(p.mws>0)sp*=MW_SLOW;if(p.fl>0)sp*=1.2;return sp}
 /* v1.2 sprint: stamina oyuncunun kendi tarafında hesaplanır (konum zaten istemci güvenilir); host uzaktaki oyuncu için c.sp bayrağını kullanır */
 function sprUpd(p,c,dt){if(p.killer){p.spr=false;return}
  const mvg=Math.hypot(c.x,c.z)>.05&&p.st==='ok'&&!(p.vt>0)&&!(p.stun>0)&&!(p.brk>0);
@@ -567,9 +569,9 @@ function sprUpd(p,c,dt){if(p.killer){p.spr=false;return}
  if(p.exh&&p.stam>=100)p.exh=false}   /* v1.4: stamina bitince tamamen dolana kadar sprint kilitli */
 /* v1.4 Cem Yılmaz "Şaka": etrafındaki JK_R alanında katil varsa JK_STUN sn sersemler (bekleme JK_CD) */
 const jkR=p=>JK_R*(has(p,'cm2')?1.25:1);
-function joke(p){if(p.jcd>0)return;p.jcd=has(p,'cm1')?32:JK_CD;p.jfx=1.2;const k=G.killer;
- if(k&&k.st==='ok'&&Math.hypot(k.x-p.x,k.z-p.z)<jkR(p)){k.stun=has(p,'cm3')?7:JK_STUN;k.mw=false;k.abl=0;k.brk=0;k.bp=k.bg=null;toast(p.name+' şaka yaptı, katil sersemledi!')}else toastP(p,'Şaka yaptın ama katil alanda değildi')}
-function survAct(p,c,dt){if(closetAct(p,c,dt))return true;let still=false;if(c.jk&&p.sv==='cem')joke(p);p.rep=null;p.us=0;const pc0=p.cpr||0,rv0=p.rvt||0;p.cpr=0;p.rvt=0;if(p.net==='remote')p.sel=c.sl===undefined?-1:c.sl;
+function joke(p){if(p.jcd>0){if(!p.bot)smsg(p,'Şaka beklemede: '+Math.ceil(p.jcd)+' sn');return}p.jcd=has(p,'cm1')?32:JK_CD;p.jfx=1.2;const k=G.killer;
+ if(k&&k.st==='ok'&&Math.hypot(k.x-p.x,k.z-p.z)<jkR(p)+JK_TOL){k.stun=has(p,'cm3')?7:JK_STUN;k.mw=false;k.abl=0;k.pz=0;k.pt=0;k.brk=0;k.bp=k.bg=null;toast(p.name+' şaka yaptı, katil sersemledi!')}else toastP(p,'Şaka yaptın ama katil alanda değildi')}
+function survAct(p,c,dt){if(closetAct(p,c,dt))return true;let still=false;p.rep=null;p.us=0;const pc0=p.cpr||0,rv0=p.rvt||0;p.cpr=0;p.rvt=0;if(p.net==='remote')p.sel=c.sl===undefined?-1:c.sl;
  if(c.sk&&p.sc){const s=p.sc;p.sc=null;skApply(p,s.g,s.t>=s.z&&s.t<=s.z+.18)}
  const g=G.gens.find(g=>!g.done&&d2(p,g)<7),h=G.P.find(q=>q.st==='hung'&&q.sink>=0&&q.hangs<3&&d2(p,G.pikes[q.pike])<8),dp=p.item&&G.deps.find(d=>d2(p,d)<12),cs0=G.chests.find(x=>x.st===0&&d2(p,x)<5),c1=G.chests.find(x=>x.st===1&&d2(p,x)<5),dw=G.P.find(q=>q!==p&&!q.killer&&q.st==='down'&&d2(p,q)<5);
  if(c.ab2&&p.sel>=0&&p.bag[p.sel])giveItem(p);if(bagAct(p,c,dt))return true;
@@ -600,10 +602,10 @@ function aimOf(p,list,maxd,min){let b=null,bs=min;list.forEach((o,i)=>{const dx=
 function veliTp(p,hk){const i=hk!==undefined?hk:aimOf(p,G.pikes,200,.3);if(i<0)return;const k=G.pikes[i],m=Math.hypot(k.x,k.z)||1;p.x=k.x-k.x/m*2.8;p.z=k.z-k.z/m*2.8;p.nt=performance.now()+600;res(p);p.ac=has(p,'ve1')?17:25;p.tpt=.4;toast('Veli ışınlandı!');roarAll()}
 function killAct(p,c,dt){p.cd=Math.max(0,p.cd-dt);p.abl=Math.max(0,p.abl-dt);p.ac=Math.max(0,p.ac-dt);p.ac2=Math.max(0,p.ac2-dt);const kd=p.kind;
  if(kd==='smooth'&&p.mw){if(c.atk&&p.ac2<=0&&!p.carry)hatThrow(p)}
- else if(kd==='crawler'&&p.abl>0&&!p.carry){if(c.atk&&p.cd<=0&&!p.lp){p.lp=1;p.swing=.35;p.abl=.35}}   /* v1.43: koşarken sol tık = ileri sıçrama */
- else if(c.atk&&p.cd<=0&&!p.carry)strike(p,true);
- if(kd==='crawler'&&p.lp){if(p.abl>0)strike(p,false);else{p.lp=0;if(p.cd<=0)p.cd=1.1}}
- if(c.abl){if(kd==='crawler'){if(p.ac<=0){p.abl=1.1;p.ac=has(p,'cr1')?7:10}}else if(kd==='smooth'){if(p.mw)mwEnd(p);else if(p.ac<=0&&!p.carry){p.mw=true;p.mwd=p.face}}else if(kd==='veli'&&p.ac<=0)veliTp(p,c.hk)}
+ else if(kd==='crawler'&&p.abl>0&&!p.carry&&!(p.pz>0)){if(c.atk&&p.cd<=0)pounceStart(p,p.net!=='remote')}   /* v1.44: koşarken sol tık = sıçrama (bkz. v1.44 bölümü) */
+ else if(c.atk&&p.cd<=0&&!p.carry&&!(p.pz>0))strike(p,true);
+ 
+ if(c.abl){if(kd==='crawler'){if(p.ac<=0&&!(p.pz>0)){p.abl=1.1;p.ac=has(p,'cr1')?7:10}}else if(kd==='smooth'){if(p.mw)mwEnd(p);else if(p.ac<=0&&!p.carry){p.mw=true;p.mwd=p.face}}else if(kd==='veli'&&p.ac<=0)veliTp(p,c.hk)}
  if(c.ab2&&kd==='veli'&&p.ac2<=0)fistTrig(p,c.fa);
  if(c.ip){if(p.carry){const k=G.pikes.find(k=>!k.occ&&d2(p,k)<9);if(k)hang(p,k)}
   else{const q=G.P.find(q=>q.st==='down'&&d2(p,q)<6);if(q){mwEnd(p);q.st='carried';p.carry=q}
@@ -612,7 +614,9 @@ function killAct(p,c,dt){p.cd=Math.max(0,p.cd-dt);p.abl=Math.max(0,p.abl-dt);p.a
 function step(p,c,dt){
  if(p.inv>0)p.inv-=dt;if(p.boost>0)p.boost-=dt;if(p.swing>0)p.swing-=dt;if(p.smt>0)p.smt-=dt;if(p.aslow>0)p.aslow-=dt;if(p.mws>0)p.mws-=dt;if(p.shd>0)p.shd-=dt;if(p.fl>0)p.fl-=dt;if(p.rbt>0)p.rbt-=dt;if(p.jcd>0)p.jcd-=dt;if(p.jfx>0)p.jfx-=dt;if(p.kk>0)p.kk-=dt;for(let i=0;i<3;i++)if(p.pc[i]>0)p.pc[i]-=dt;
  if(p.st==='hung'){if(p.sink<0){p.sink=Math.min(0,p.sink+dt);return}p.sink+=dt*(p.hangs>=3?1/SINK3:1/SINK)*(has(p,'ruh')?.75:1);if(p.sink>=1)die(p);return}
- if(p.st!=='ok')return;
+ if(p.st!=='ok'){p.pz=0;return}
+ if(c.jk&&p.sv==='cem'&&!p.killer)joke(p);   /* v1.44: Şaka sersemleme/atlama/dolap gibi erken dönüşlerden ÖNCE işlenir (basış kaybolmaz) */
+ if(p.pz>0){if(p.stun>0||p.vt>0||p.frz>0||p.brk>0)p.pz=p.pt=0;else pounceTick(p,dt)}
  if(c.pk)for(let i=0;i<3;i++)if(c.pk>>i&1)usePerk(p,i);
  if(p.vt>0){p.vt-=dt;const k=1-Math.max(0,p.vt)/p.vd;p.x=p.va.x+(p.vb.x-p.va.x)*k;p.z=p.va.z+(p.vb.z-p.va.z)*k;p.vy=p.vt>0?Math.sin(Math.PI*k)*(p.vk===2?.15:.7):0;return}
  if(p.stun>0){p.stun-=dt;p.mw=false;return}
@@ -621,7 +625,7 @@ function step(p,c,dt){
  const still=p.killer?(killAct(p,c,dt),false):survAct(p,c,dt);
  if(p.vt>0||p.brk>0)return;
  const sp=speedOf(p),l=Math.hypot(c.x,c.z);if(p.tpt>0)p.tpt-=dt;
- if(leaping(p)){p.x+=Math.sin(p.face)*sp*dt;p.z+=Math.cos(p.face)*sp*dt;res(p);return}
+ if(p.pz>0){pounceMove(p,dt);if(p.pz===2&&!p.phit&&p.pt>.1)pounceHit(p);return}
  if(p.mw){const ox=p.x,oz=p.z;p.x+=Math.sin(p.mwd)*sp*dt;p.z+=Math.cos(p.mwd)*sp*dt;res(p);if(Math.hypot(p.x-ox,p.z-oz)<sp*dt*.4)mwEnd(p);return}
  if(l>.05&&!still){const k=Math.min(1,l);p.x+=c.x/l*k*sp*dt;p.z+=c.z/l*k*sp*dt;if(!(p.killer&&(p===me||p.net==='remote')))p.face=Math.atan2(c.x,c.z)}
  res(p)}
@@ -933,7 +937,7 @@ lk.addEventListener('touchend',()=>lid=null);
 function humanCmd(){if(me.st==='dead'||me.st==='esc'){if(inp.ip)specStep(1);if(inp.drop)specStep(-1)}
  const mx=(K.KeyD?1:0)-(K.KeyA?1:0)+inp.jx,my=(K.KeyW?1:0)-(K.KeyS?1:0)+inp.jy,fx=-Math.sin(yaw),fz=-Math.cos(yaw),rx=Math.cos(yaw),rz=-Math.sin(yaw);
  const c={x:rx*mx+fx*my,z:rz*mx+fz*my,ih:K.KeyE||inp.ih,ip:inp.ip,atk:inp.atk,abl:inp.abl,ab2:inp.ab2,drop:inp.drop,sk:0,pk:inp.pk,jk:inp.jk,sp:(K.ShiftLeft||K.ShiftRight||inp.sp)?1:0};
- if(!me.killer){const it=me.sel>=0&&me.bag[me.sel];c.uh=(it&&(K.KeyF||inp.us))?1:0;c.sl=me.sel;c.sk=inp.abl||(inp.atk&&!c.uh);c.atk=c.abl=0}else{me.face=yaw+Math.PI;veliAim(c)}
+ if(!me.killer){const it=me.sel>=0&&me.bag[me.sel];c.uh=(it&&(K.KeyF||inp.us))?1:0;c.sl=me.sel;c.sk=inp.abl||(inp.atk&&!c.uh);c.atk=c.abl=0}else{if(!(me.pz>0))me.face=yaw+Math.PI;veliAim(c)}
  netp.ip|=c.ip;if(c.fa)netp.fa=c.fa;netp.atk|=c.atk;netp.abl|=c.abl;netp.drop|=c.drop;netp.sk|=c.sk;netp.pk|=c.pk;netp.jk|=c.jk;netp.ab2|=c.ab2;inp.ip=inp.atk=inp.abl=inp.ab2=inp.drop=inp.pk=inp.jk=0;return c}
 
 /* ================= ağ (PeerJS, host otoriter) ================= */
@@ -999,7 +1003,7 @@ $('st').onclick=()=>{const l=parts();if(l.length<2){nstat('En az 2 oyuncu gerekl
  const roster=l.map(x=>{const k=x.pid===room.kid,kd=k?kdOf(x):cfg.kind;return{n:x.name,k,b:x.bot,kd,sv:x.sv,pk:x.bot?[]:(((x.ld||{})[k?kd:x.sv]||[]).filter(i=>PK[i]&&PK[i][1]===(k?'k':'s')).slice(0,3))}}),seed=Math.random()*1e9|0,cf={time:cfg.time,map:cfg.map,gens:cfg.gens,chests:cfg.chests,closets:cfg.closets};
  l.forEach((x,i)=>{if(x.cl)sendR(x.cl,{m:'start',seed,cfg:cf,roster,you:i})});startGame(seed,cf,roster,0,'host',l);NET.cl.forEach(c=>c.rd=false)};
 function snap(full){const rd=v=>typeof v==='number'?Math.round(v*100)/100:v;const s={m:'s',k:rd(G.t),t:rd(G.time),o:G.open?1:0,ov:rd(G.over),
- P:G.P.map(p=>[p.x,p.z,p.face,ST.indexOf(p.st),p.hp,p.hangs,p.pike,p.sink,p.item?G.items.indexOf(p.item):-1,p.carry?p.carry.id:-1,p.inv,p.boost,p.swing,p.stun,p.vt,p.vd,p.va.x,p.va.z,p.vb.x,p.vb.z,p.vk,p.abl,p.brk,p.money,p.xp,p.ac,p.cd,p.sc?p.sc.t:-1,p.sc?p.sc.z:0,p.sc?G.gens.indexOf(p.sc.g):-1,p.rep?G.gens.indexOf(p.rep):-1,p.resc,p.dep,p.mw?1:0,p.ac2,p.mwd,p.smt,p.smv,p.pc[0],p.pc[1],p.pc[2],p.bag[0],p.bag[1],p.shd,p.fl,p.us,p.frz||0,p.jcd||0,p.jfx||0,p.kk||0].map(rd)),
+ P:G.P.map(p=>[p.x,p.z,p.face,ST.indexOf(p.st),p.hp,p.hangs,p.pike,p.sink,p.item?G.items.indexOf(p.item):-1,p.carry?p.carry.id:-1,p.inv,p.boost,p.swing,p.stun,p.vt,p.vd,p.va.x,p.va.z,p.vb.x,p.vb.z,p.vk,p.abl,p.brk,p.money,p.xp,p.ac,p.cd,p.sc?p.sc.t:-1,p.sc?p.sc.z:0,p.sc?G.gens.indexOf(p.sc.g):-1,p.rep?G.gens.indexOf(p.rep):-1,p.resc,p.dep,p.mw?1:0,p.ac2,p.mwd,p.smt,p.smv,p.pc[0],p.pc[1],p.pc[2],p.bag[0],p.bag[1],p.shd,p.fl,p.us,p.frz||0,p.jcd||0,p.jfx||0,p.kk||0,p.pz||0,p.pz?p.pt:0].map(rd)),
  pj:G.proj.map(o=>[rd(o.x),rd(o.z),o.ph|0]),fs:G.fists.map(f=>[f.id,rd(f.x),rd(f.y),rd(f.z),rd(f.nx),rd(f.nz),f.sk?2:f.w,f.st,rd(f.t)])};
  if(full){s.g=G.gens.map(g=>[rd(g.p),g.done?1:0,rd(g.al),rd(g.sb)]);s.cs=G.chests.map(c=>[c.st,c.it]);s.i=G.items.map(i=>[rd(i.x),rd(i.z),i.taken?1:0]);s.pl=G.pals.map(a=>[a.st==='up'?0:a.st==='down'?1:2,a.ds,a.hd||0]);s.d=G.deps.map(d=>[rd(d.prog),d.busy>0?1:0]);s.cl=G.closets.map(c=>[c.bl?1:0,rd(c.dn)])}return s}
 function applySnap(s){G.time=s.t;G.over=s.ov;G.proj=s.pj.map(a=>({x:a[0],z:a[1],ph:a[2]|0,t:0}));{const ids=new Set();for(const a of s.fs){ids.add(a[0]);let f=G.fists.find(o=>o.id===a[0]);if(!f){f=mkFist(a[0],a[1],a[2],a[3],a[4],a[5],a[6]);G.fists.push(f)}f.st=a[7];f.t=a[8]}for(let i=G.fists.length-1;i>=0;i--)if(!ids.has(G.fists[i].id)||G.fists[i].st===0)fistRemove(i)}if(s.o&&!G.open){G.open=true;doorVis()}
@@ -1011,13 +1015,13 @@ function applySnap(s){G.time=s.t;G.over=s.ov;G.proj=s.pj.map(a=>({x:a[0],z:a[1],
  s.d&&s.d.forEach((a,i)=>{G.deps[i].prog=a[0];G.deps[i].busy=a[1]?.2:0});G.pikes.forEach(k=>k.occ=null);
  s.P.forEach((a,i)=>{const p=G.P[i];if(p!==me){const dk=s.k-(p.sk===undefined?-9:p.sk);if(dk>.01&&dk<.6){const vx=(a[0]-p.tx)/dk,vz=(a[1]-p.tz)/dk,m=Math.hypot(vx,vz),f=m>14?14/m:1;p.evx=vx*f;p.evz=vz*f}else{p.evx=p.evz=0}p.sk=s.k;p.tsn=performance.now()}p.tx=a[0];p.tz=a[1];if(p!==me){p.face=a[2];p.swing=a[12]}p.st=ST[a[3]];p.hp=a[4];p.hangs=a[5];p.pike=a[6];p.sink=a[7];p.item=a[8]>=0?G.items[a[8]]:null;p.carry=a[9]>=0?G.P[a[9]]:null;
   p.inv=a[10];p.boost=a[11];p.stun=a[13];p.vt=a[14];p.vd=a[15]||1;p.va={x:a[16],z:a[17]};p.vb={x:a[18],z:a[19]};p.vk=a[20];p.abl=a[21];p.brk=a[22];p.money=a[23];p.xp=a[24];p.ac=a[25];p.cd=a[26];
-  p.sc=a[27]>=0?{t:a[27],z:a[28],g:G.gens[a[29]]}:null;p.rep=a[30]>=0?G.gens[a[30]]:null;p.resc=a[31];p.dep=a[32];p.mw=!!a[33];p.ac2=a[34];p.mwd=a[35];p.smt=a[36];p.smv=a[37];p.pc=[a[38],a[39],a[40]];p.bag=[a[41]|0,a[42]|0];p.shd=a[43]||0;p.fl=a[44]||0;p.us=a[45]||0;p.frz=a[46]||0;p.jcd=a[47]||0;p.jfx=a[48]||0;p.kk=a[49]||0;if(p.st==='hung'&&G.pikes[p.pike])G.pikes[p.pike].occ=p})}
+  p.sc=a[27]>=0?{t:a[27],z:a[28],g:G.gens[a[29]]}:null;p.rep=a[30]>=0?G.gens[a[30]]:null;p.resc=a[31];p.dep=a[32];p.mw=!!a[33];p.ac2=a[34];p.mwd=a[35];p.smt=a[36];p.smv=a[37];p.pc=[a[38],a[39],a[40]];p.bag=[a[41]|0,a[42]|0];p.shd=a[43]||0;p.fl=a[44]||0;p.us=a[45]||0;p.frz=a[46]||0;p.jcd=a[47]||0;p.jfx=a[48]||0;p.kk=a[49]||0;if(p!==me){const z=a[50]|0,zt=a[51]||0;if(z!==(p.pz|0)||Math.abs(zt-(p.pt||0))>.15){p.pz=z;p.pt=zt}}if(p.st==='hung'&&G.pikes[p.pike])G.pikes[p.pike].occ=p})}
 
 /* ================= sunucu listesi (v1.12; sürüm başına ortak keşif peer'i) ================= */
 /* Mantık: sürüme özel sabit bir PeerJS kimliği (DIR_ID) vardır. Menüye ilk giren tarayıcı bu kimliği alıp "dizin sunucusu" olur,
    diğerleri ona bağlanır. Hostlar 5 sn'de bir odalarını dizine bildirir (15 sn bildirmezse listeden düşer). Dizin sahibi çıkarsa
    başka biri devralır, hostlar bir sonraki bildirimde odalarını yeniden yazar. Oyun/oda ağı (NET) buradan bağımsızdır. */
-const VER='1.43',DIR_ID='kazik-dir-'+VER.replace('.','-');
+const VER='1.44',DIR_ID='kazik-dir-'+VER.replace('.','-');
 const DIR={role:'off',peer:null,conn:null,q:[],rooms:{},hb:null,fail:0,got:0,tt:0};
 function dirInit(){if(DIR.role!=='off'||typeof Peer==='undefined')return;DIR.role='try';
  try{const pr=new Peer(DIR_ID);DIR.peer=pr;
@@ -1162,14 +1166,15 @@ function sync(dt){
   const y=1.5+Math.sin(G.t*13+i)*.07+(ph?.12:0);h.position.set(o.x,y,o.z);h.rotation.set(0,h.yaw||0,(ph?-.45:.45)+Math.sin(G.t*9)*.08);h.hat.rotation.y=G.t*26;h.gl.scale.setScalar(1+.12*Math.sin(G.t*20));
   h.hist.push([o.x,y,o.z]);if(h.hist.length>14)h.hist.shift();h.tr.forEach((t,j)=>{const q=h.hist[Math.max(0,h.hist.length-1-(j+1)*3)];t.position.set(q[0],q[1]-.1,q[2])})}else{h.hist.length=0;h.px=undefined}})
  for(const d of G.deps){if(d.busy>0)d.ang+=dt*7;d.cr.rotation.x=d.ang;const by=.7+d.prog*1.4;d.bk.position.y=by;d.rp.position.y=(2.5+by)/2;d.rp.scale.y=2.5-by}
- for(const p of G.P){if(p.shm)p.shm.visible=p.shd>0&&p.st==='ok';const m=p.m;m.visible=p.st!=='dead'&&p.st!=='esc'&&!(me.killer&&(p===me||p.st==='carried'));let y=0,rz=0,rx=0,ry=p.face,x=p.x,z=p.z;const dyn=p.da>=0&&!!p.dk;
+ for(const p of G.P){if(p.shm)p.shm.visible=p.shd>0&&p.st==='ok';const m=p.m;m.visible=p.st!=='dead'&&p.st!=='esc'&&!(me.killer&&((p===me&&!crwFP())||p.st==='carried'));let y=0,rz=0,rx=0,ry=p.face,x=p.x,z=p.z;const dyn=p.da>=0&&!!p.dk;
   if(dyn){m.visible=true;x=p.dk.x+.35;z=p.dk.z;rx=-.08;ry=Math.PI/2;y=deadY(p.da)}else if(p.st==='down'){rz=1.5;y=.45}else if(p.st==='carried'){rz=1.5;y=1.9}else if(p.st==='hung'){const k=G.pikes[p.pike];if(k){x=k.x+.35;z=k.z}rx=-.08;ry=Math.PI/2;p.vsk=p.vsk||0;
    if(p.sink<0){const e0=cl(1+p.sink/HANGT,0,1),e=e0*e0*(3-2*e0),kl=G.killer;if(kl&&k){x=kl.x+(k.x+.35-kl.x)*e;z=kl.z+(k.z-kl.z)*e}y=1.9-.9*e+Math.sin(Math.PI*e)*.9;rz=1.5*(1-e);{const da=((Math.PI/2-p.face+Math.PI)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)-Math.PI;ry=p.face+da*e}p.vsk=0}
    else{let r=0;if(k)for(const q of G.P)if(!q.killer&&q.st==='ok'&&q.resc>0&&Math.hypot(q.x-k.x,q.z-k.z)<8)r=Math.max(r,cl(q.resc/(has(q,'s4')?2:3),0,1));
     const tg=p.sink*(1-r);p.vsk+=(tg-p.vsk)*Math.min(1,dt*(tg<p.vsk?14:12));y=1-p.vsk*HDEP}}
-  else if(p.vt>0){y=p.vy||0;rx=p.vk===2?1.1:.5}else if(p.brk>0){rx=-.45*brkK(p.brk)}else if(p.stun>0){rz=Math.sin(G.t*30)*.15}else if(p.swing>0)rx=.5;
+  else if(p.vt>0){y=p.vy||0;rx=p.vk===2?1.1:.5}else if(p.brk>0){rx=-.45*brkK(p.brk)}else if(p.stun>0){rz=Math.sin(G.t*30)*.15}else if(p.swing>0&&!(p.pz>0))rx=.5;
+  if(p.pz===2)y=pnY(p.pt);
   if(p.killer&&p.kp){const kp=p.kp,mvg=Math.hypot(p.x-(p.sx??p.x),p.z-(p.sz??p.z))>.01;p.sx=p.x;p.sz=p.z;
-   if(p.kind==='crawler'){const cw=kp.cw;if(cw){cw.mv=mvg?.2:Math.max(0,cw.mv-dt);cw.want=p.st!=='ok'?'idle':(leaping(p)||p.swing>0)?'attack':p.abl>0?'run':(cw.mv>0||p.carry&&mvg)?'walk':'idle'}}
+   if(p.kind==='crawler'){const cw=kp.cw;if(cw){cw.mv=mvg?.2:Math.max(0,cw.mv-dt);cw.want=p.st!=='ok'?'idle':p.pz===1?'idle':p.pz>0?(p.swing>0?'attack':'run'):p.swing>0?'attack':p.abl>0?'run':(cw.mv>0||p.carry&&mvg)?'walk':'idle';{const tg=pnLean(p);cw.ln=(cw.ln||0)+(tg-(cw.ln||0))*Math.min(1,dt*14);cw.root.rotation.x=cw.ln}}}
    else{const w=Math.sin(G.t*(p.mw?18:9))*(p.mw?.6:mvg?.5:0);kp.legs[0].rotation.x=w;kp.legs[1].rotation.x=-w;if(kp.kn)kp.kn.visible=!p.mw;if(kp.hat){const hv=!G.proj.length;if(hv&&!kp.hv)kp.pop=1;kp.hv=hv;kp.hat.visible=hv;kp.pop=Math.max(0,(kp.pop||0)-.05);kp.hat.scale.setScalar(.85*(1+.3*kp.pop))}if(p.mw&&!(p.vt>0))rx=-.25}
    if(p.tpt>0)m.visible=Math.floor(G.t*40)%2===0}
   if(p.lm){const l=p.lm,mvg=Math.hypot(p.x-(p.sx??p.x),p.z-(p.sz??p.z))>.005;p.sx=p.x;p.sz=p.z;let w=0;
@@ -1181,11 +1186,11 @@ function sync(dt){
    else l.la.rotation.x=l.ra.rotation.x=l.ll.rotation.x=l.rl.rotation.x=.2}
   if(p.kl){p.kl.position.set(x,p.kind==='veli'?4:1.6,z);p.kl.visible=p.st!=='dead'}m.position.set(x,y,z);m.rotation.set(rx,ry,rz)}}
 function camUpd(){let t=me;if(me.st==='dead'||me.st==='esc'){t=specCur();specId=t.id}FL.position.set(t.x,3.2,t.z);
- if(t===me&&me.killer){const q=Math.cos(pit),ey=({crawler:1.7,smooth:2.1,veli:5.3})[me.kind]||1.9,ky=me.brk>0?.25*brkK(me.brk):0;cam.position.set(t.x,ey-ky,t.z);cam.lookAt(t.x-Math.sin(yaw)*q,ey-ky-Math.sin(pit),t.z-Math.cos(yaw)*q);
-  const fv=70+(me.abl>0||me.mw?14:0);if(Math.abs(cam.fov-fv)>.1){cam.fov+=(fv-cam.fov)*.2;cam.updateProjectionMatrix()}return}
- if(cam.fov!==70){cam.fov=70;cam.updateProjectionMatrix()}
+ if(t===me&&me.killer){const q=Math.cos(pit),ey=({crawler:1.7,smooth:2.1,veli:5.3})[me.kind]||1.9,ky=me.brk>0?.25*brkK(me.brk):0;if(crwFP())crwCam(q,ky);else{if(CRW.fp)crwClip(false);cam.position.set(t.x,ey-ky,t.z);cam.lookAt(t.x-Math.sin(yaw)*q,ey-ky-Math.sin(pit),t.z-Math.cos(yaw)*q)}
+  const fv=70+(me.pz===2?20:(me.abl>0||me.mw)?14:0);if(Math.abs(cam.fov-fv)>.1){cam.fov+=(fv-cam.fov)*.2;cam.updateProjectionMatrix()}return}
+ if(CRW.fp)crwClip(false);if(cam.fov!==70){cam.fov=70;cam.updateProjectionMatrix()}
  const D=7.5,cp=Math.cos(pit);cam.position.set(t.x+Math.sin(yaw)*cp*D,1.6+Math.sin(pit)*D,t.z+Math.cos(yaw)*cp*D);cam.lookAt(t.x,1.4,t.z);fistShake()}
-function hands(){HD.visible=me.killer&&me.st==='ok';if(!HD.visible)return;const hs=HS[me.kind];if(!hs){HD.visible=false;return}for(const k in HS)HS[k].g.visible=HS[k]===hs;
+function hands(){HD.visible=me.killer&&me.st==='ok'&&!crwFP();if(!HD.visible)return;const hs=HS[me.kind];if(!hs){HD.visible=false;return}for(const k in HS)HS[k].g.visible=HS[k]===hs;
  const sw=me.swing>0,t=sw?1-me.swing/.35:1,s=sw?Math.sin(Math.PI*t):0,s2=sw?Math.sin(Math.PI*cl(t*1.3-.15,0,1)):0,mvg=Math.hypot(me.x-HD.px,me.z-HD.pz)>.02,b=mvg?Math.sin(G.t*8)*.02:0,ds=(me.abl>0||me.mw)?.12:0,kb=me.brk>0,up=me.carry?.08:kb?-.15:0,oy=me.kind==='veli'?-.12:0;HD.px=me.x;HD.pz=me.z;
  if(me.kind==='crawler')hs.R.userData.cw.concat(hs.L.userData.cw).forEach(c=>c.scale.y=(sw||me.abl>0)?.42:.05);
  if(hs.g.kn)hs.g.kn.visible=!me.mw;
@@ -1393,7 +1398,7 @@ $('ivb').onclick=()=>{show('s-inv');ivRender()};$('ivx').onclick=mainMenu;$('ivk
 
 /* ================= v1.43: Crawler GLB modeli (test projesinden; klipler: idle/walk/run/attack/death) ================= */
 /* CRW_GLB (base64) dosyanin basindaki ayri <script>'te. Model bir kez parse edilir, her katil/lobi icin SkeletonUtils.clone + kendi AnimationMixer'i. Yuklenemezse eski kutu modeli (crwOld) cizilir. */
-const CRW={st:0,wait:[],list:[],gl:null,s:1,oy:0,hgt:2.2};
+const CRW={st:0,wait:[],list:[],gl:null,s:1,oy:0,hgt:2.2,mt:[],fp:false,fcw:null};
 function crwLoad(){if(CRW.st)return;CRW.st=1;
  const fin=ok=>{CRW.st=ok?2:3;const w=CRW.wait;CRW.wait=[];w.forEach(f=>{try{f()}catch(e){console.error(e)}})};
  try{if(!THREE.GLTFLoader||!THREE.SkeletonUtils)throw new Error('GLTFLoader/SkeletonUtils yok');
@@ -1403,7 +1408,7 @@ function crwLoad(){if(CRW.st)return;CRW.st=1;
  }catch(e){console.error(e);fin(false)}}
 function crwPrep(gl){const m=gl.scene;let hd=null,tl=null,tr=null;
  m.traverse(o=>{if(o.isBone){const n=o.name;if(n.includes('__Head_'))hd=o;else if(n.includes('L_Toe0'))tl=o;else if(n.includes('R_Toe0'))tr=o}
-  if(o.isMesh){o.frustumCulled=false;const om=o.material;o.material=new THREE.MeshLambertMaterial({map:om&&om.map||null,color:om&&om.map?0xffffff:0x777777,side:THREE.DoubleSide,skinning:true})}});
+  if(o.isMesh){o.frustumCulled=false;const om=o.material;o.material=new THREE.MeshLambertMaterial({map:om&&om.map||null,color:om&&om.map?0xffffff:0x777777,side:THREE.DoubleSide,skinning:true});CRW.mt.push(o.material)}});
  m.updateMatrixWorld(true);const wy=o=>o.getWorldPosition(new THREE.Vector3()).y;let hr=0,ty=0;
  if(hd&&tl&&tr){ty=(wy(tl)+wy(tr))/2;hr=wy(hd)-ty}
  if(!(hr>1e-6)){const b=new THREE.Box3().setFromObject(m);ty=b.min.y;hr=b.max.y-b.min.y;if(!(hr>1e-6)){hr=1.99;ty=0}}
@@ -1412,13 +1417,42 @@ function crwAttach(g,kp,old){const add=()=>{if(CRW.st!==2){old&&old();return}
   const c=THREE.SkeletonUtils.clone(CRW.gl.scene);c.scale.setScalar(CRW.s);c.position.y=CRW.oy;g.add(c);
   const mx=new THREE.AnimationMixer(c),A={};CRW.gl.animations.forEach(a=>{A[a.name]=mx.clipAction(a)});
   if(A.attack)A.attack.timeScale=Math.max(.5,A.attack.getClip().duration/.45);
-  const cw={mx,A,root:c,cur:'',want:'idle',wa:false,mv:0,gone:0};kp.cw=cw;CRW.list.push(cw);crwPlay(cw,'idle')};
+  const cw={mx,A,root:c,cur:'',want:'idle',wa:false,mv:0,gone:0};c.traverse(o=>{if(o.isBone&&o.name.includes('__Head_'))cw.hd=o});kp.cw=cw;CRW.list.push(cw);crwPlay(cw,'idle')};
  if(CRW.st>=2)add();else{CRW.wait.push(add);crwLoad()}}
 function crwPlay(cw,n){if(cw.cur===n)return;const nx=cw.A[n];if(!nx)return;const pv=cw.A[cw.cur];
  nx.reset();nx.setLoop(n==='attack'||n==='death'?THREE.LoopOnce:THREE.LoopRepeat);nx.clampWhenFinished=n==='attack'||n==='death';nx.enabled=true;if(pv&&pv!==nx)nx.crossFadeFrom(pv,.18,false);nx.play();cw.cur=n}
 function crwUpd(dt){const L=CRW.list;for(let i=L.length-1;i>=0;i--){const cw=L[i];let o=cw.root,att=false;while(o){if(o.isScene){att=true;break}o=o.parent}
   if(!att){if(++cw.gone>600)L.splice(i,1);continue}cw.gone=0;
   const w=cw.want;if(w==='attack'&&!cw.wa)cw.cur='';cw.wa=w==='attack';crwPlay(cw,w);cw.mx.update(dt)}}
+/* ================= v1.44: Crawler sıçrama (Pounce) + birinci kişi gövde ================= */
+/* Test projesi (Springtrap_Crawler) startPounce'tan: koşarken (Boşluk) sol tık -> pz=1 hazırlık (PN_W sn, durur) -> pz=2 havada yay (hedefe kilit: PN_AIM içinde önündeki hayatta kalan) -> pz=3 iniş (PN_REC sn).
+   p.pz faz, p.pt faz süresi, p.pd yön, p.phit isabet; pz/pt snap P 50-51. Mantığı host yürütür (step), kendi katil istemcisi aynısını tahmin eder (cliFrame). Görsel yükseklik pnY(pt). */
+const pnY=t=>Math.max(0,PN_V0*t-PN_G/2*t*t);
+function pounceStart(p,assist){let a=p.face,bd=PN_AIM;
+ if(assist)for(const q of G.P){if(q.killer||q.st!=='ok'||hidC(q))continue;const dx=q.x-p.x,dz=q.z-p.z,d=Math.hypot(dx,dz);if(d<.1||d>=bd)continue;if((dx*Math.sin(p.face)+dz*Math.cos(p.face))/d>.4&&los(p,q)){bd=d;a=Math.atan2(dx,dz)}}
+ p.pd=a;p.face=a;p.pz=1;p.pt=0;p.phit=0;p.abl=0;p.cd=PN_CD;p.swing=0}
+function pounceTick(p,dt){p.pt+=dt;
+ if(p.pz===1){if(p.pt>=PN_W){p.pz=2;p.pt=0;p.phit=0}}
+ else if(p.pz===2){if(p.pt>=PN_AIR){p.pz=3;p.pt=0}}
+ else if(p.pz===3){if(p.pt>=PN_REC){p.pz=0;p.pt=0}}}
+function pounceMove(p,dt){const a=p.pd===undefined?p.face:p.pd;p.face=a;let sp=0;
+ if(p.pz===1)sp=8*Math.exp(-14*p.pt)-.5;
+ else if(p.pz===2)sp=PN_SP*(1.2-.3*Math.min(1,p.pt/.6))*(p.phit?.25:1);
+ else sp=PN_SP*.9*Math.exp(-9*p.pt)*(p.phit?.25:1);
+ p.x+=Math.sin(a)*sp*dt;p.z+=Math.cos(a)*sp*dt;res(p)}
+function pounceHit(p){for(const q of G.P){if(q.killer||q.st!=='ok'||q.inv>0)continue;
+  if(Math.hypot(q.x-p.x,q.z-p.z)<PN_HIT&&los(p,q)){p.phit=1;p.swing=.35;p.cd=has(p,'cr2')?1.2:1.6;const h0=q.hp;dmg(p,q);if(q.hp<h0){q.kk=KK_T;smsg(p,'Kan Kokusu: kurbanın izi görünüyor')}return}}}
+const pnLean=p=>p.pz===1?.35*cl(p.pt/PN_W,0,1):p.pz===2?.3+.3*cl(p.pt/PN_AIR,0,1):p.pz===3?.3*(1-cl(p.pt/.3,0,1)):0;
+/* Birinci kişi: Crawler katil eski eller (HD) yerine KENDİ gövdesini görür. Kamera kafa kemiğinin yanında; kafa küçültülür ve Crawler malzemelerine kameranın önünde kesme düzlemi (CRW_PL) konur -> kamera içeri girmez. */
+const CRW_PL=new THREE.Plane(),CRW_PA=[CRW_PL],CWV=new THREE.Vector3(),CWN=new THREE.Vector3();
+const crwFP=()=>!!(run&&me&&me.killer&&me.kind==='crawler'&&me.st==='ok'&&CRW.st===2&&me.kp&&me.kp.cw&&me.kp.cw.hd);
+function crwClip(on){const cw=CRW.fcw;for(const m of CRW.mt)m.clippingPlanes=on?CRW_PA:null;if(cw&&cw.hd)cw.hd.scale.setScalar(on?.001:1);CRW.fp=!!on;if(!on)CRW.fcw=null}
+function crwCam(q,ky){const cw=me.kp.cw;CRW.fcw=cw;me.m.updateMatrixWorld(true);cw.hd.getWorldPosition(CWV);
+ const lx=-Math.sin(yaw)*q,ly=-Math.sin(pit),lz=-Math.cos(yaw)*q,hl=Math.hypot(lx,lz)||1;
+ if(CRW.fy===undefined||Math.abs(CRW.fy-CWV.y)>1.5)CRW.fy=CWV.y;CRW.fy+=(CWV.y-CRW.fy)*.5;
+ cam.position.set(CWV.x+lx/hl*.24,CRW.fy+.1-ky,CWV.z+lz/hl*.24);cam.lookAt(cam.position.x+lx,cam.position.y+ly,cam.position.z+lz);
+ CWN.set(lx,ly,lz).normalize();CRW_PL.setFromNormalAndCoplanarPoint(CWN,CWV.copy(cam.position).addScaledVector(CWN,.3));
+ crwClip(true)}
 /* ================= döngü ================= */
 function remoteCmd(p){const r=p.rc||{},e=p.pend,c={x:r.x||0,z:r.z||0,ih:r.ih,ip:e.ip,atk:e.atk,abl:e.abl,ab2:e.ab2,drop:e.drop,sk:e.sk,pk:e.pk,jk:e.jk,sp:r.sp,uh:r.uh,sl:r.sl,stam:r.stam,ex:r.ex,fa:e.ab2?p.pfa:null};if(e.ab2)p.pfa=null;p.pend={ip:0,atk:0,abl:0,ab2:0,drop:0,sk:0,pk:0,jk:0};if(p.killer&&r.f!==undefined)p.face=r.f;return c}
 function hostFrame(dt){const hc=humanCmd();
@@ -1427,20 +1461,20 @@ function hostFrame(dt){const hc=humanCmd();
 /* hareket: oyuncu kendi konumunu kendisi hesaplar (gecikme/geri çekilme olmaz); host onu yumuşakça takip eder.
    Zorla taşınma / özel hareket durumlarında (vault, sersemleme, moonwalk, atılma, ışınlanma) host otoriter kalır. */
 function trustPos(p,dt){const r=p.rp,now=performance.now();if(!r||now-r.t>250||now<(p.nt||0))return;
- if(hidC(p)||p.st!=='ok'||p.vt>0||p.stun>0||p.frz>0||p.brk>0||p.mw||p.abl>0||p.smt>0||p.tpt>0)return;
+ if(hidC(p)||p.st!=='ok'||p.vt>0||p.stun>0||p.frz>0||p.brk>0||p.mw||p.abl>0||p.smt>0||p.tpt>0||p.pz>0)return;
  const dx=r.x-p.x,dz=r.z-p.z,d=Math.hypot(dx,dz);if(d<.001||d>8)return;const k=Math.min(1,dt*12);p.x+=dx*k;p.z+=dz*k;res(p)}
 function cliFrame(dt){const c=humanCmd();G.t+=dt;NET.acc+=dt;sprUpd(me,c,dt);
  if(NET.acc>=.033){NET.acc=0;const m={m:'c',x:+c.x.toFixed(3),z:+c.z.toFixed(3),ih:c.ih?1:0,ip:netp.ip,atk:netp.atk,abl:netp.abl,ab2:netp.ab2,drop:netp.drop,sk:netp.sk,pk:netp.pk|0,jk:netp.jk|0,sp:me.spr?1:0,uh:c.uh?1:0,sl:me.sel,stam:Math.round(me.stam),ex:me.exh?1:0,fa:netp.fa||undefined,f:+me.face.toFixed(3),px:+me.x.toFixed(2),pz:+me.z.toFixed(2),q:NET.sq=(NET.sq|0)+1};
   netp.ip=netp.atk=netp.abl=netp.ab2=netp.drop=netp.sk=netp.pk=netp.jk=0;netp.fa=null;try{const x=NET.ru&&NET.ru.open?NET.ru:NET.conn;x&&x.open&&x.send(m)}catch(e){}}
- if(me.swing>0)me.swing-=dt;if(me.aslow>0)me.aslow-=dt;if(me.fl>0)me.fl-=dt;if(me.killer&&me.kind==='smooth'){if(me._mw&&!me.mw)me.mws=MW_SLOW_T;me._mw=me.mw;if(me.mws>0)me.mws-=dt}for(const g of G.gens)if(g.sb>0)g.sb-=dt;if(me.killer&&c.atk&&me.cd<=0&&me.swing<=0&&!me.carry&&me.st==='ok'&&!(me.kind==='smooth'&&me.mw)){if(me.kind==='crawler'&&me.abl>0){me.swing=.35;me.abl=.35}else{me.swing=.35;me.aslow=ATK_SLOW_T}}
+ if(me.swing>0)me.swing-=dt;if(me.aslow>0)me.aslow-=dt;if(me.fl>0)me.fl-=dt;if(me.killer&&me.kind==='smooth'){if(me._mw&&!me.mw)me.mws=MW_SLOW_T;me._mw=me.mw;if(me.mws>0)me.mws-=dt}for(const g of G.gens)if(g.sb>0)g.sb-=dt;if(me.pcd>0)me.pcd-=dt;if(me.stun>0)me.pz=0;if(me.killer&&c.atk&&me.cd<=0&&me.swing<=0&&!me.carry&&me.st==='ok'&&!(me.kind==='smooth'&&me.mw)&&!(me.pz>0)){if(me.kind==='crawler'&&me.abl>0){if(!(me.pcd>0)){pounceStart(me,true);me.pcd=PN_CD+.1}}else{me.swing=.35;me.aslow=ATK_SLOW_T}}
  if(me.sc)me.sc.t+=dt/1.6;for(const f of G.fists)if(f.st)f.t+=dt;
- for(const p of G.P){if(p.vt>0){p.vt-=dt;p.vy=p.vt>0?Math.sin(Math.PI*(1-p.vt/p.vd))*(p.vk===2?.15:.7):0}
+ for(const p of G.P){if(p.pz>0)pounceTick(p,dt);if(p.vt>0){p.vt-=dt;p.vy=p.vt>0?Math.sin(Math.PI*(1-p.vt/p.vd))*(p.vk===2?.15:.7):0}
   if(p!==me){const ex=Math.min(.1,(performance.now()-(p.tsn||0))/1000),ox=p.tx+(p.evx||0)*ex,oz=p.tz+(p.evz||0)*ex;if(Math.hypot(ox-p.x,oz-p.z)>6){p.x=ox;p.z=oz}else{const k=Math.min(1,dt*16);p.x+=(ox-p.x)*k;p.z+=(oz-p.z)*k}continue}
   const ctl=p.st==='ok'&&!hidC({x:p.tx,z:p.tz})&&!(p.vt>0)&&!(p.stun>0)&&!(p.brk>0)&&!(p.frz>0);
   if(!ctl){const k=Math.min(1,dt*16);p.x+=(p.tx-p.x)*k;p.z+=(p.tz-p.z)*k;continue}
   const l=Math.hypot(c.x,c.z),still=!p.killer&&((c.ih&&(G.gens.some(g=>!g.done&&d2(p,g)<7)||(p.item&&G.deps.some(d=>d2(p,d)<12))||G.chests.some(x=>x.st===0&&d2(p,x)<5)||G.P.some(q=>q!==p&&!q.killer&&q.st==='down'&&d2(p,q)<5)||G.P.some(q=>q.st==='hung'&&q.hangs<3&&d2(p,G.pikes[q.pike])<8)))||(c.uh&&p.sel>=0&&p.bag[p.sel]&&!unuse(p,p.bag[p.sel])));
-  if(leaping(p)){const sp=speedOf(p);p.x+=Math.sin(p.face)*sp*dt;p.z+=Math.cos(p.face)*sp*dt;res(p)}else if(p.mw){const sp=speedOf(p);p.x+=Math.sin(p.mwd)*sp*dt;p.z+=Math.cos(p.mwd)*sp*dt;res(p)}else if(l>.05&&!still){const sp=speedOf(p),k=Math.min(1,l);p.x+=c.x/l*k*sp*dt;p.z+=c.z/l*k*sp*dt;if(!p.killer)p.face=Math.atan2(c.x,c.z);res(p)}
-  const mvg=(l>.05&&!still)||p.mw,spec=p.mw||p.abl>0||p.smt>0,er=Math.hypot(p.tx-p.x,p.tz-p.z);
+  if(p.pz>0){pounceMove(p,dt)}else if(p.mw){const sp=speedOf(p);p.x+=Math.sin(p.mwd)*sp*dt;p.z+=Math.cos(p.mwd)*sp*dt;res(p)}else if(l>.05&&!still){const sp=speedOf(p),k=Math.min(1,l);p.x+=c.x/l*k*sp*dt;p.z+=c.z/l*k*sp*dt;if(!p.killer)p.face=Math.atan2(c.x,c.z);res(p)}
+  const mvg=(l>.05&&!still)||p.mw||p.pz>0,spec=p.mw||p.abl>0||p.smt>0||p.pz>0,er=Math.hypot(p.tx-p.x,p.tz-p.z);
   if(er>(spec?3:5)){p.x=p.tx;p.z=p.tz}else{const k=Math.min(1,dt*(mvg?(spec?.4:0):6));p.x+=(p.tx-p.x)*k;p.z+=(p.tz-p.z)*k}}}
 function frame(ts){requestAnimationFrame(frame);const dt=Math.min(.05,(ts-last)/1000);last=ts;crwUpd(dt);
  if(!run){campUpd(dt);HD.visible=false;rd.render(sc2,cam2);return}
