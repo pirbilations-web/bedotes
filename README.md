@@ -1,1 +1,1 @@
-v1.43 crawler update, sıcrama animasyonu yok. sabotaj animasyonu yok, onın dışında iyi.
+https://drive.google.com/file/d/1qIQJUVxz_fpLdNhtS0SCELhkFvANzmoa/view?usp=sharing
